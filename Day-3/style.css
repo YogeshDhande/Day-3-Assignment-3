@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+}
+h1{
+    color: burlywood;
+    font-weight: 700;
+}
+p{
+    font-size: 25px;
+    color: peru;
+    font-weight: 600;
+}
+.section1{
+    /* height: 300px; */
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 0px;
+}
+.element1, .element2, .element3, .element4, .element5{
+    height: 200px;
+    width: 15%;
+    background-color: red;
+}
+
+
+/* Section-2 starts */
+
+.section2{
+    /* height: 300px; */
+    width: 100%;
+    display: inline-block;
+    padding: 40px 43px;
+    background-color:red;
+}
+
+.ele1, .ele2, .ele3, .ele4{
+    height: 200px;
+    width: 20%;
+    display: inline-block;
+    margin: 0px 20px;
+    background-color: grey;
+}
